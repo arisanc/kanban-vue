@@ -7,7 +7,7 @@ ul.drag-list, ul.drag-inner-list {
 }
 
 .drag-container {
-    max-width: 1000px;
+    max-width: 90vw;
     margin: 20px auto;
 }
 
@@ -24,7 +24,7 @@ ul.drag-list, ul.drag-inner-list {
     flex: 1;
     margin: 0 10px;
     position: relative;
-    background: rgba(black, 0.2);
+    background: rgba(white, 0.2);
     overflow: hidden;
 
     @media (max-width: 690px) {
@@ -48,22 +48,25 @@ ul.drag-list, ul.drag-inner-list {
 
 .drag-inner-list {
     min-height: 50px;
-    color: white;
+    color: #555;
 }
 
 .drag-item {
     padding: 10px;
     margin: 10px;
-    height: 100px;
-    background: rgba(black, 0.4);
+    min-height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    // background: rgba(white, 0.8);
     transition: $ease-out;
 
     &.is-moving {
         transform: scale(1.5);
-        background: rgba(black, 0.8);
+        background: rgba(white, 0.8);
     }
 
 }
+
 
 .drag-header-more {
     cursor: pointer;
@@ -125,4 +128,53 @@ ul.drag-list, ul.drag-inner-list {
 
 .gu-transit {
   opacity: 0.2;
+}
+
+.vue-simple-progress{
+    z-index: 5 !important;
+}
+
+.kb-card-title{
+    font-size: 22px !important;
+    font-weight: 600;
+}
+
+.kb-card-worker{
+    font-size: 14px;
+    text-align: left;
+}
+
+.kb-icon-user{
+    height: 14px;
+    position: relative;
+    top:3px;
+}
+
+.kb-card-content{
+    font-size: 13px;
+    text-align: left;
+    text-indent: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    overflow:hidden;
+    /*! autoprefixer: off */
+    -webkit-box-orient: vertical;
+    margin-bottom: 4px;
+}
+
+.kb-card-progress{
+    display: flex;
+    justify-content: space-between;
+}
+
+.kb-card-dead-time{
+    height: 12px;
+    font-size: 12px;
+}
+
+.kb-card-dead-time-icon{
+    
+    height: 12px;
+    position: relative;
 }

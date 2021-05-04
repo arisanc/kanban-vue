@@ -23,7 +23,7 @@ ul.drag-list, ul.drag-inner-list {
   flex: 1;
   margin: 0 10px;
   position: relative;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgb(243, 241, 241);
   overflow: hidden;
 }
 @media (max-width: 690px) {
@@ -54,12 +54,12 @@ ul.drag-list, ul.drag-inner-list {
   padding: 10px;
   margin: 10px;
   height: 100px;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(245, 244, 244, 0.836);
   transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 }
 .drag-item.is-moving {
   transform: scale(1.5);
-  background: rgba(0, 0, 0, 0.8);
+  background: rgb(255, 255, 255, 0.8);
 }
 
 .drag-header-more {
