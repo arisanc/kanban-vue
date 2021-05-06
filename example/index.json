@@ -1,0 +1,64 @@
+{
+    "title": "vue 看板组件",
+    "kanbanList": [
+        {
+            "label": "说明",
+            "color": "#fff",
+            "background": "rgb(239, 91, 156)",
+            "tasks": [
+                {
+                    "title": "开发原因",
+                    "content": "开发其它想要更直观地了解自己地需求,更重要的是想要一个自己能够方便加上自己需求的看板",
+                    "worker": "arisanc",
+                    "time": "2021/6/30",
+                    "progress": "10"
+                },
+                {
+                    "tags":["立刻","马上","完成"],
+                    "title": "开发基础",
+                    "imgsize":40,
+                    "time": "2021/6/30",
+                    "progress": "62",
+                    "links": {
+                        "vue-kanban":"https://vue-kanban.netlify.app/"
+                    },
+                    "content": "基于vue-kanban进行二次开发,主要有以下优点",
+                    "img": [
+                        "https://cn.vuejs.org/images/logo.png"
+                    ],
+                    "todo":["更方便的设定自己需要的属性","优化了拖拽过程的动画","可以设置自己的任务进度","支持更多的内容，包括图片、链接、待办事项、标签等等"]
+                }
+            ]
+        },
+        {
+            "label": "主要参数说明",
+            "color": "white",
+            "background": "rgb(223, 148, 100)",
+            "tasks": [
+                {
+                    "title": "progressColor",
+                    "content": "设置进度条颜色，支持不同的百分比设置不同的颜色"
+                },
+                {
+                    "title": "cardStyle",
+                    "content": "设置卡片的颜色"
+                },
+                {
+                    "title": "config",
+                    "content": "设置各种颜色，一行限制看板数量的等的参数"
+                }
+            ]
+        }
+    ],
+    "tags": {
+        "立刻":{"bg":"rgb(230, 120, 120)"},
+        "马上":{"bg":"rgb(253, 247, 239)","color":"rgb(194, 139, 152)"},
+        "完成":{"bg":"rgb(84, 191, 144)"}
+    },
+    "exclude": [
+        "延后做"
+    ],
+    "okTags": [
+        "已完成"
+    ]
+}
