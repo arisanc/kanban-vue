@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "dragula": "^3.7.2",
-    "easy-circular-progress": "^1.0.4",
+    // "easy-circular-progress": "^1.0.4",
     "vue": "^2.2.6",
     "vue-simple-progress": "^1.1.1",
     "xstate": "^4.6.7"

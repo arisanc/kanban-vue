@@ -37,7 +37,7 @@
 import faker from "faker";
 import { debounce } from "lodash";
 import Kanban from "./components/Kanban";
-import Progress from "easy-circular-progress";
+import Progress from "../public/easy-circular-progress";
 
 import index from '../example/index.json'
 

@@ -1,0 +1,95 @@
+{
+  "_from": "easy-circular-progress",
+  "_id": "easy-circular-progress@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha1-hVANAUjuXO2SQe0AY9uMAkq5qcw=",
+  "_location": "/easy-circular-progress",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "easy-circular-progress",
+    "name": "easy-circular-progress",
+    "escapedName": "easy-circular-progress",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/easy-circular-progress/download/easy-circular-progress-1.0.4.tgz",
+  "_shasum": "85500d0148ee5ced9241ed0063db8c024ab9a9cc",
+  "_spec": "easy-circular-progress",
+  "_where": "L:\\code\\filesystem\\plugins\\vue-kanban",
+  "author": {
+    "name": "dreambo8563"
+  },
+  "bugs": {
+    "url": "https://github.com/dreambo8563/easy-circular-progress/issues"
+  },
+  "bundleDependencies": false,
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "core-js": "^3.0.1",
+    "vue": "^2.6.10"
+  },
+  "deprecated": false,
+  "description": "easy circular progress component with counting effect",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.6.0",
+    "@vue/cli-plugin-eslint": "^3.6.0",
+    "@vue/cli-plugin-unit-jest": "^3.6.0",
+    "@vue/cli-service": "^3.6.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.7.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "sass": "^1.18.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "files": [
+    "dist/*",
+    "src/*",
+    "package.json",
+    "*.js",
+    "README.md"
+  ],
+  "homepage": "https://github.com/dreambo8563/easy-circular-progress#readme",
+  "keywords": [
+    "vue",
+    "progress",
+    "component",
+    "circular",
+    "countdown"
+  ],
+  "license": "MIT",
+  "main": "dist/easy-circular-progress.umd.min.js",
+  "name": "easy-circular-progress",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreambo8563/easy-circular-progress.git"
+  },
+  "scripts": {
+    "build": "vue-cli-service build --target lib --name easy-circular-progress src/index.js",
+    "lint": "vue-cli-service lint",
+    "pages": "vue-cli-service build --dest docs",
+    "report": "vue-cli-service build --report",
+    "serve": "vue-cli-service serve",
+    "test": "codecov --token=86e04c79-2ac0-49f8-9d40-50e49bf4a10d",
+    "test:unit": "vue-cli-service test:unit",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  },
+  "version": "1.0.4"
+}
