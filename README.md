@@ -11,4 +11,4 @@
 
 
 
-![界面](https://github.com/arisanc/vue-/blob/main/example/example.png?raw=true)
+![界面](https://github.com/arisanc/kanban-vue/blob/main/example/example.png?raw=true)
